@@ -1,0 +1,15 @@
+{
+  "name": "ASP.NET",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.1.4",
+    "angular": "1.5.0",
+    "angular-local-storage": "0.2.3",
+    "angular-uuid": "0.1.0",
+    "angular-mocks": "1.5.0"
+    
+  },
+  "resolutions": {
+    "angular": "1.5.0"
+  }
+}

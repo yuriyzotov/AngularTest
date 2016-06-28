@@ -1,0 +1,7 @@
+{
+  "Framework": "jasmine",
+  "FrameworkVersion": "2",  
+  "RootReferencePathMode": "SettingsFileDirectory",
+  "TestHarnessLocationMode": "Custom",
+  "TestHarnessDirectory": "Tests/TestResults"
+}

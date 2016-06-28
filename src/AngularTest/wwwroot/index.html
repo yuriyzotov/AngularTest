@@ -1,0 +1,27 @@
+﻿<html>
+<head>
+    <title>Angular Auth</title>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/angular-uuid/uuid.js"></script>
+    <script src="lib/angular-local-storage/dist/angular-local-storage.js"></script>
+    <script src="js/controllers/mainController.js"></script>
+    <script src="js/modules/fdAuth.js"></script>
+    <script src="js/app.js"></script>
+    
+    
+</head>
+<body ng-app="app" ng-controller="MainController">
+    <h1>Angular Auth </h1>
+    <br/>
+
+        <button ng-click="login()" ng-show="!isLoggedIn()">Login</button>
+        <button ng-click="testToken()" >Test token</button>
+        <button ng-click="logout()" ng-show="isLoggedIn()">Logout</button>
+        
+    
+
+        <br><br>
+        {{message}}
+</body>
+</html>
