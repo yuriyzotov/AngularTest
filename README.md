@@ -1,4 +1,4 @@
-# AngularTest
+﻿# AngularTest
 Test project for Angular position
 
 
@@ -73,3 +73,13 @@ Summary:
 2. If the JWT token has expired, refresh it.
 
 3. Please cover every use case with tests. (Unit + E2E)
+
+
+
+
+#Results
+
+Powerd by VisualStudio 2015.  Node.js is required for tests
+
+JS source code is in the src\AngularTest\wwwroot\js\modules\fdAuth.js 
+Tests are in the src\AngularTest\Tests\fdAuth.test.js 	
